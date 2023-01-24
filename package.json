@@ -65,7 +65,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "dist/klaro.js",
-  "name": "klaro",
+  "name": "@woosmap/klaro",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kiprotect/klaro.git"
@@ -79,5 +79,5 @@
     "make-dev": "cross-env APP_ENV=dev cross-env APP_DEV_MODE=server webpack-dev-server --host 127.0.0.1 --config webpack.config.js --history-api-fallback",
     "make-watch": "cross-env APP_ENV=dev cross-env APP_DEV_MODE=watch webpack --watch --config webpack.config.js"
   },
-  "version": "0.7.18"
+  "version": "0.7.19"
 }
